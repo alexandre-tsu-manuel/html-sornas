@@ -1,6 +1,6 @@
 # Exercice de la dernière fois :
 ## Le code HTML
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -29,7 +29,7 @@
 ```
 
 ## Le code CSS
-```
+```css
 .lettre1 { color: red; }
 .lettre2 { color: green; }
 .lettre3 { color: blue; }
@@ -45,7 +45,7 @@
 ```
 
 # Différentes techniques de HTML
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head>
