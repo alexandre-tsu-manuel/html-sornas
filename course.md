@@ -3,7 +3,7 @@
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+    <head>
     	<meta charset="utf-8" />
         <title>Mon arc en ciel</title>
     </head>
@@ -16,9 +16,9 @@
         	<span class="lettre5">o</span>
         	<span class="lettre6">u</span>
         	<span class="lettre7">r</span>
-            &nbsp;
+                &nbsp;
         	<span class="lettre8">à</span>
-            &nbsp;
+                &nbsp;
         	<span class="lettre9">t</span>
         	<span class="lettre10">o</span>
         	<span class="lettre11">u</span>
@@ -48,7 +48,7 @@
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
+    <head>
     	<meta charset="utf-8" />
         <title>Ma page de test</title>
     </head>
