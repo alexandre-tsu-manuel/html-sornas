@@ -43,3 +43,31 @@
 .lettre11 { color: rgb(255, 128, 0); }
 .lettre12 { color: rgb(112, 45, 68); }
 ```
+
+# Différentes techniques de HTML
+```
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8" />
+        <title>Ma page de test</title>
+    </head>
+    <body>
+        <!-- Un commentaire -->
+    	<section> <!-- On découpe le contenu en sections -->
+            <p></p> <!-- Un paragraphe -->
+            <img src="dossier/monimage.png" alt="Mon image" /> <!-- Insérer une image -->
+            <a href="google.com">Lien vers Google</a> <!-- Insérer un lien -->
+        </section>
+        <section>
+            <h1>Titre principal</h1>
+            <h2>Sous-titre</h2>
+            <h3>Sous-sous-titre</h3>
+            <ul> <!-- Liste à puce -->
+            	<li>Premier élément</li>
+            	<li>Deuxième élément</li>
+            </ul>
+        </section>
+    </body>
+</html>
+```
