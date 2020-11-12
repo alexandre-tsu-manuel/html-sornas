@@ -71,3 +71,17 @@
     </body>
 </html>
 ```
+
+# Exercice du jour
+## Votre mission
+- 1 : Créez une page HTML.
+- 2 : Ajoutez votre nom et votre prénom en titre principal.
+- 3 : Ajoutez une photo miniature, sur laquelle on pourra cliquer pour avoir une version agrandie.
+- 4 : Ajoutez 3 sections avec un titre secondaire (mon expérience, mes compétences, ma formation). Chaque section contient un paragraphe ou une liste à puce.
+
+## Vérifiez que vous avez bien les éléments suivants :
+- [X] La page HTML est un CV.
+- [X] Le titre principal est en `<h1>`.
+- [X] Une photo miniature cliquable renvoie sur la même photo agrandie.
+- [X] 3 sections (mon expérience, mes compétences, ma formation) sont en titre `<h2>`.
+- [X] Chaque section contient un paragraphe ou une liste à puce.
