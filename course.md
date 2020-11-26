@@ -110,6 +110,41 @@ Soit le code HTML suivant :
 </html>
 ```
 
+Et le code CSS :
+```
+html
+{
+    background-image: url("bg.png");
+}
+
+body
+{
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(to right, #F0F0F0, white, white, #F0F0F0);
+}
+
+section
+{
+    padding: 50px;
+    border: solid 1px silver;
+    border-radius: 15px;
+    text-align: center;
+    color: #404040;
+}
+
+h1
+{
+    font-size: 4em;
+}
+
+p
+{
+    font-size: 2.5em;
+}
+```
+
 ## Exercice du jour
 ### Votre mission
 Étape 1 : Récupérez le fichier HTML que vous aviez créé lors du jour 2.
