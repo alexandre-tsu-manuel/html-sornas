@@ -111,7 +111,7 @@ Soit le code HTML suivant :
 ```
 
 Et le code CSS :
-```
+```css
 html
 {
     background-image: url("bg.png");
