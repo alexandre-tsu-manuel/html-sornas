@@ -165,3 +165,55 @@ p
 - [X]  Une police personnalisée est utilisée via @font-face.
 - [X]  La bordure d’un élément est définie.
 - [X]  L’ombre d’un élément est définie.
+
+# Jour 4
+## Différentes techniques de CSS
+Soit le code HTML suivant :
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" media="all" type="text/css" href="cours-html.css" />
+    </head>
+    <body>
+        <header>
+            <!-- En-tête -->
+        </header>
+        <nav>
+            <!-- Menu -->
+        </nav>
+        <section>
+            <!-- Contenu central -->
+        </section>
+        <footer>
+            <!-- Pied de page -->
+        </footer>
+    </body>
+</html>
+```
+
+Et le code CSS :
+```css
+
+```
+
+## Exercice du jour
+### Votre mission
+Pour le moment, vos pages sont assez verticales… Mais il est possible de travailler le sens de lecture et de profiter de la puissance de la mise en page en CSS.
+
+Vous allez devoir structurer votre CV comme ceci :
+* à gauche, un liseré, qui sera défini en valeur absolue (en pixels) ;
+* à droite, le contenu de votre CV, qui contiendra à l'intérieur, de gauche à droite, les sections suivantes :
+	* Mon expérience,
+	* Mes compétences,
+	* Ma formation.
+
+La mise en page, à l'exception du liseré, doit être en valeur relative (pourcentage). Le contenu doit occuper tout l'espace en largeur, quelle que soit la largeur de la fenêtre.
+
+Vous devrez utiliser des balises sémantiques pour réaliser votre mise en page.
+
+### Vérifiez que vous avez bien les éléments suivants :
+- [X] Un liseré est présent à gauche, en valeur absolue.
+- [X] 3 blocs sont alignés de gauche à droite, avec une mise en page en valeur relative (pourcentage).
+- [X] Des balises sémantiques sont utilisées.
