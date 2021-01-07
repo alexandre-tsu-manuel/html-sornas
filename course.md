@@ -195,7 +195,22 @@ Soit le code HTML suivant :
 
 Et le code CSS :
 ```css
+nav
+{
+    height: 500px;
+    width: 10%;
+    margin-right: 2%;
+    display: inline-block;
+    background-color: blue;
+}
 
+section
+{
+    height: 500px;
+    width: 85%;
+    display: inline-block;
+    background-color: red;
+}
 ```
 
 ## Exercice du jour
