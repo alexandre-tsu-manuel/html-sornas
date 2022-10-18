@@ -1,3 +1,5 @@
+Fil rouge : https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
+
 # Jour 1
 ## Le code HTML
 ```html
@@ -165,6 +167,118 @@ p
 - [X]  Une police personnalisée est utilisée via @font-face.
 - [X]  La bordure d’un élément est définie.
 - [X]  L’ombre d’un élément est définie.
+
+## Correction
+### HTML
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mon super CV</title>
+        <link rel="stylesheet" href="test.css" />
+    </head>
+    <body>
+        <a href="profile-pic.jpg">
+            <img src="profilepic.jpeg" alt="Photo d'Alexandre MANUEL" width="200px" />
+        </a>
+        <h1>Alexandre MANUEL</h1>
+        <h3>Ingénieur informatique</h3>
+        <header>
+        </header>
+        <nav>
+        </nav>
+        <section>
+            <h2>Mon expérience</h2>
+            <ul>
+                <li>Sauvé le monde dans le Marvel Cinematic Universe</li>
+                <li>Résolu le réchauffement climatique</li>
+                <li>Battu Voldemort en duel</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Mes compétences</h2>
+            <ul>
+                <li>Gourou absolu de HTML</li>
+                <li>Niveau maximal de CSS</li>
+                <li>Peinture sur chaise déséquilibrée en chanson</li>
+            </ul>
+        </section>
+        <section class="formation">
+            <h2>Ma formation</h2>
+            <p>
+                J'ai suivi au cours de ma vie une formation très particulière, qui me donne un ensemble de compétences très particulier, qui ferait pâlir d'envie Liam Neeson dans Taken.
+            </p>
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>
+```
+### CSS
+```css
+@font-face
+{
+	font-family: 'Roboto';
+	src: url('RobotoMono-Medium.ttf');
+}
+@font-face
+{
+	font-family: 'Montserrat';
+	src: url('Montserrat-Medium.ttf');
+}
+
+html
+{
+	background-color: #F0F0F0;
+}
+
+body
+{
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(to right, #F0F0F0, white, white, #F0F0F0);
+    border: solid 1px silver;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px silver;
+    font-family: 'Roboto';
+	color: #707070;
+}
+
+section
+{
+    padding: 10px 20px;
+    color: #404040;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3
+{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+h1
+{
+    font-size: 3em;
+    color: #202080;
+}
+h2 { color: #404040; }
+h3 { color: #1010C0; }
+
+img
+{
+	border-radius: 50%;
+	text-align: left;
+	margin-left: -40px;
+	margin-top: -40px;
+	float: left;
+    box-shadow: 3px 3px 5px silver;
+}
+```
 
 # Jour 4
 ## Différentes techniques de CSS
