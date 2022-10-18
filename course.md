@@ -347,6 +347,142 @@ Vous devrez utiliser des balises sémantiques pour réaliser votre mise en page.
 - [X] 3 blocs sont alignés de gauche à droite, avec une mise en page en valeur relative (pourcentage).
 - [X] Des balises sémantiques sont utilisées.
 
+## Correction
+### HTML
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mon super CV</title>
+        <link rel="stylesheet" href="test.css" />
+    </head>
+    <body>
+        <a href="profilepic.jpeg">
+            <img src="profilepic.jpeg" alt="Photo d'Alexandre MANUEL" width="200px" />
+        </a>
+        <header>
+            <h1>Alexandre MANUEL</h1>
+            <h3>Ingénieur informatique</h3>
+        </header>
+        <section>
+            <h2>Mon expérience</h2>
+            <ul>
+                <li>Sauvé le monde dans le Marvel Cinematic Universe</li>
+                <li>Résolu le réchauffement climatique</li>
+                <li>Battu Voldemort en duel</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Mes compétences</h2>
+            <ul>
+                <li>Gourou absolu de HTML</li>
+                <li>Niveau maximal de CSS</li>
+                <li>Peinture sur chaise déséquilibrée en chanson</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Ma formation</h2>
+            <p>
+                J'ai suivi au cours de ma vie une formation très particulière, qui me donne un ensemble de compétences très particulier, qui ferait pâlir d'envie Liam Neeson dans Taken.
+            </p>
+        </section>
+        <footer>
+            <a href="mailto:alexandre.th.manuel@gmail.com">alexandre.th.manuel@gmail.com</a> - 06 37 64 59 80
+        </footer>
+    </body>
+</html>
+```
+### CSS
+```css
+@font-face
+{
+	font-family: 'Roboto';
+	src: url('RobotoMono-Medium.ttf');
+}
+@font-face
+{
+	font-family: 'Montserrat';
+	src: url('Montserrat-Medium.ttf');
+}
+
+html
+{
+	background-color: #F0F0F0;
+}
+
+body
+{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(to right, #F0F0F0, white, white, #F0F0F0);
+    border: solid 1px silver;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px silver;
+    font-family: 'Roboto';
+	color: #707070;
+}
+
+header
+{
+	margin-left: 200px;
+}
+
+section:first-of-type
+{
+	clear: both;
+}
+
+section
+{
+    padding: 10px 20px;
+    color: #404040;
+    width: calc(33% - 40px);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+footer
+{
+	margin: 10px;
+	text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: #404040;
+}
+
+h1, h2, h3
+{
+    font-family: 'Montserrat';
+}
+h1
+{
+    font-size: 3em;
+    color: #1010A8;
+}
+h2
+{
+    color: #202080;
+    text-align: center;
+}
+h3 { color: #404040; }
+
+img
+{
+	border-radius: 50%;
+	text-align: left;
+	margin-left: -30px;
+	margin-top: -30px;
+	float: left;
+    box-shadow: 3px 3px 5px silver;
+}
+```
 
 # Jour 5
 ## Le Javascript
