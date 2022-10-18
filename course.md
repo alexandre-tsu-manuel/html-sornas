@@ -219,18 +219,18 @@ p
 ```css
 @font-face
 {
-	font-family: 'Roboto';
-	src: url('RobotoMono-Medium.ttf');
+    font-family: 'Roboto';
+    src: url('RobotoMono-Medium.ttf');
 }
 @font-face
 {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Medium.ttf');
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.ttf');
 }
 
 html
 {
-	background-color: #F0F0F0;
+    background-color: #F0F0F0;
 }
 
 body
@@ -243,7 +243,7 @@ body
     border-radius: 15px;
     box-shadow: 6px 6px 10px silver;
     font-family: 'Roboto';
-	color: #707070;
+    color: #707070;
 }
 
 section
@@ -271,11 +271,11 @@ h3 { color: #1010C0; }
 
 img
 {
-	border-radius: 50%;
-	text-align: left;
-	margin-left: -40px;
-	margin-top: -40px;
-	float: left;
+    border-radius: 50%;
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -40px;
+    float: left;
     box-shadow: 3px 3px 5px silver;
 }
 ```
